@@ -32,51 +32,32 @@ h1, h2, h3, h4 {
 }
 
 /*Header*/
-header {
-	border-bottom: 2px solid #cccccc;
+nav {
 	width: 100%;
-	background-color: #fff;
-	margin-bottom: 40px;
-	margin-top: -20px;
 	position: static;
 }
-.header {
-	max-width: 960px;
-	width: 90%;
-	margin: 0px auto;
-}
-#name {
+.navbar-brand {
 	color: #F4FAF8;
-	background-color: #4aaaa5;
-	width: 250px;
-	text-align: center;
-	padding: 30px;
 	display: inline-block;
-	margin-bottom: -1px;
-	margin-left:-30px;
-
+	font-size: 30px;
 }
-.nav {
+.nav2  {
 	list-style-type: none;
 	float: right;
-	margin-top: 62px;
-	font-size: 18px;
-}
-.nav li {
-	display: inline-block;
-	padding: 5px;
-	color: #A6A7A7;
+	font-size: 16px;
+	display:inline-block;
+	margin-top: 44px;
 }
 .navline {
-	border-right: 2px solid #F2F2F2;
+	border-right: 1px solid #F2F2F2;
 }
 .navlinks:link {
 	text-decoration: none;
-	color: #A6A7A7;
+	color: #ffffff;
 }
 .navlinks:visited {
 	text-decoration: none;
-	color: #A6A7A7;
+	color: #ffffff;
 }
 .navlinks:hover {
 	color: #87B8B6;
@@ -107,20 +88,18 @@ main {
 .github {
 	display: inline-block;
 	width: 65px;
-	margin-right: 10px;
-	margin-left: -42px;
+	margin-left: -25px;
 }
 .linkedin {
 	display: inline-block;
 	width: 65px;
-	margin-left: -10px;
+	margin-left: -14px;
 }
 .stackoverflow {
 	display: inline-block;
 	height: 59px;
 	width: 55px;
-	margin-bottom: 3px;
-	margin-left:2px;
+	margin-top: 4px;
 }
 /*About Me*/
 .aboutme{
@@ -158,7 +137,7 @@ main {
 .message {
 	margin: 0px;
 	height: 199px;
-	width: 621px;
+	width: 562px;
 	border: 1px solid #dddddd;
 }
 .submit {
@@ -185,8 +164,6 @@ label {
 	padding: 30px;
 }
 .portfolio img {
-	height: 200px;
-	width: 270px;
 	padding: 18px;
 }
 /*Footer*/
@@ -204,154 +181,6 @@ footer {
 	bottom: 0;
 	width: 100%;
 }
-/*Media Queries*/
-
-@media screen and (max-width: 980px) {
-	.aboutme {
-		width: 419px;
-		margin-left: 27px;
-	}
-
-	.sidebar {
-		margin-right: 50px;
-
-	}
-	.profileimg {
-		float: none;
-		margin-left: 95px;
-	}
-	.portfolio {
-		width: 419px;
-		margin-left: 27px;
-	}
-	.portfolio img {
-		height: 270px;
-		width: 360px;
-		padding-bottom: 50px;
-		margin-left: 5px;
-	}
-	.contact {
-		width: 419px;
-		margin-left: 27px;
-	}
-	.contactform {
-		width: 410px;
-	}
-	.message {
-		height: 200px;
-		width: 410px;
-	}
-}
-
-
-@media screen and (max-width: 768px) {
-	.aboutme {
-		width: 700px;
-		padding-right: 15px;
-		padding-left: 15px;
-		margin-left: -27px;
-	}
-	.profileimg {
-		float: left;
-		margin: 0;
-	}
-	.sidebar {
-		float: none;
-		margin-top: 40px;
-		margin-left: -27px;
-		width: 655px;
-	}
-	.portfolio {
-		width: 700px;
-		padding-right: 15px;
-		padding-left: 15px;
-		margin-left: -27px;
-	}
-	.portfolio img {
-		width: 313px;
-		height: 234px;
-		padding-top: 20px;
-		padding-right: 11px;
-		padding-bottom: 20px;
-	}
-	.contact {
-		width: 700px;
-		padding-right: 15px;
-		padding-left: 15px;
-		margin-left: -27px;
-	}
-	.contactform {
-		height: 33px;
-		width: 664px;
-	}
-	.message {
-		width: 664px;
-	}
-}
-
-@media screen and (max-width: 640px) {
-	.aboutme {
-		width: 570px;
-		margin-left: -17px;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.profileimg {
-		float: none;
-		margin-left: 150px;
-	}
-	.sidebar {
-		float: none;
-		margin-left: -15px;
-		width: 525.852px;
-	}
-	.nav {
-		float: none;
-		margin-left: 50px;
-		margin-top: 40px;
-	}
-	#name {
-		width: 580px;
-	}
-	.nav li {
-		padding: 0 68px;
-		margin-left: -55px;
-		font-size: 22px;
-
-	}
-	.portfolio {
-		width: 570px;
-		margin-left: -17px;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.portfolio img {
-		width: 537px;
-		height: 402px;
-	}
-
-	.contact {
-		width: 570px;
-		margin-left: -17px;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.contactform {
-		width: 538px;
-		height: 34px;
-	}
-	.message {
-		width: 538px;
-	}
-}
-
-
-
-
-
-
-
-
 
 
 
