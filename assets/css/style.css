@@ -88,18 +88,18 @@ main {
 .github {
 	display: inline-block;
 	width: 65px;
-	margin-left: -25px;
+	/*margin-left: -25px;*/
 }
 .linkedin {
 	display: inline-block;
 	width: 65px;
-	margin-left: -14px;
+	/*margin-left: -14px;*/
 }
 .stackoverflow {
 	display: inline-block;
 	height: 59px;
 	width: 55px;
-	margin-top: 4px;
+	/*margin-top: 4px;*/
 }
 /*About Me*/
 .aboutme{
@@ -168,12 +168,12 @@ label {
 }
 /*Footer*/
 footer {
-	background-color: #666666;
+	background-color: #2C3E50;
 	text-align: center;
 	line-height: 7;
 	color: #b7b7b7;
 	font-size: 12px;
-	margin-top: 40px;
+	margin-top: 42px;
 	height: 100px;
 	border-top: 8px solid #4aaaa5;
 	position: absolute;
