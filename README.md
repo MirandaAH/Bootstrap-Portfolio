@@ -1,5 +1,5 @@
 # Miranda Hane Portfolio
 
-![Banner](assets/images/Portfolio.png;)
+![Banner](assets/images/Portfolio.png)
 
 > A professional portfolio.
