@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 const PsychicGame = require("../Images/PsychicGame.png");
-const FriendFinder = require("./Images/FriendFinder.png");
-const ComingSoon = require('./Images/ComingSoon.png');
+const FriendFinder = require("../Images/FriendFinder.png");
+const ComingSoon = require('../Images/ComingSoon.png');
 
 class About extends Component {
   render(){
