@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import PsychicGame from "../Images/PsychicGame.png";
-import FriendFinder from "../Images/FriendFinder.png";
-import ComingSoon from '../Images/ComingSoon.png';
+import PsychicGame from "./Images/PsychicGame.png";
+import FriendFinder from "./Images/FriendFinder.png";
+import ComingSoon from './Images/ComingSoon.png';
 
 class About extends Component {
   render(){
