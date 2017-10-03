@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import profilepic from './Images/profilepic.jpg';
+const profilepic = require('../Images/profilepic.jpg');
 
 class About extends Component {
   render(){
