@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 
-class Navbar extends Component {
-  render(){
-    return(
+const Navbar = (props) =>
       <nav className="navbar navbar-toggleable-md">
         <Link to="/" className="name">Miranda Hane</Link>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link to="/" className="routes">About</Link>
@@ -17,10 +15,8 @@ class Navbar extends Component {
             </li>
           </ul>
         </div>
-      </nav>);
+      </nav>
 
-  }
-}
 
 
 export default Navbar;

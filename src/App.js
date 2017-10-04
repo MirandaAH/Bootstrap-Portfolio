@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Accounts from './components/Accounts/Accounts';
 import Navbar from './components/Navbar/Navbar';
+
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
-const backgroundImage = require('./Images/backgroundImage.png');
+import './App.css';
 
 
 
@@ -17,7 +18,7 @@ class App extends Component {
           <div className="App-header">
             <Navbar />
           </div>
-          <img src={backgroundImage}  className="backgroundImage"alt="background pattern" />
+
           <div className="container">
             <div className="row">
               <div className="col-md-8">
