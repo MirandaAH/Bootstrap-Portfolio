@@ -8,10 +8,10 @@ const Navbar = (props) =>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="/about" className="routes">About</Link>
+              <Link to="/Miranda-Hane/about" className="routes">About</Link>
             </li>
             <li className="nav-item">
-              <Link to="/portfolio" className="routes">Portfolio</Link>
+              <Link to="/Miranda-Hane/portfolio" className="routes">Portfolio</Link>
             </li>
           </ul>
         </div>
