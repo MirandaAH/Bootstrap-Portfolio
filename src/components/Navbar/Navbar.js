@@ -8,7 +8,7 @@ const Navbar = (props) =>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to="/" className="routes">About</Link>
+              <Link to="/about" className="routes">About</Link>
             </li>
             <li className="nav-item">
               <Link to="/portfolio" className="routes">Portfolio</Link>

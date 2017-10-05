@@ -22,9 +22,9 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-8">
-                <Route exact path="/" component={About} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/portfolio" component={Portfolio} />
+                <Route exact path="/Miranda-Hane/" component={About} />
+                <Route exact path="/Miranda-Hane/about" component={About} />
+                <Route exact path="/Miranda-Hane/portfolio" component={Portfolio} />
               </div>
               <div className="col-md-4">
                 <Accounts />
